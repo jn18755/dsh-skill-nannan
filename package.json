@@ -1,0 +1,38 @@
+{
+  "name": "dsh-skill-hell-grind-video-prompt",
+  "description": "Bundled Hell Grind video prompt skill provider for DeepSeek Harness",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-skill": "^0.1.1-rc.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jn18755/dsh-skill-nannan.git"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "skill",
+    "ai-video",
+    "video-prompt",
+    "hell-grind",
+    "seedance",
+    "sora"
+  ]
+}
