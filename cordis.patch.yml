@@ -1,0 +1,4 @@
+# dsh bundle patch: inserts this skill plugin into a profile's layer stack.
+- insert:
+    - id: skill-hell-grind-video-prompt
+      name: 'dsh-skill-hell-grind-video-prompt'
